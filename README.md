@@ -1,64 +1,86 @@
-# 👋 Hello, I'm Zhichao Pan!
+# 👋 Hi, I'm Zhichao Pan
 
-🎓 **Computer Science Student** @ Yangzhou University Guangling College | 💻 **AI Researcher & Developer** | 🚀 **Pursuing Excellence in AI Engineering**
+🎓 **Computer Science Student** @ Yangzhou University Guangling College<br>
+💻 **AI Researcher & Developer** building applied ML, RAG, multi-agent systems, and AI products<br>
+🚀 Currently focused on reliable AI engineering, uncertainty-aware modeling, and practical full-stack AI apps
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Expert-blue?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/PyTorch-Advanced-red?logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/MLOps-Intermediate-orange?logo=databricks&logoColor=white" alt="MLOps">
-  <img src="https://img.shields.io/badge/Bayesian%20Stats-Advanced-green?logo=r&logoColor=white" alt="Bayesian Stats">
-  <img src="https://img.shields.io/badge/RAG%20Systems-Expert-purple?logo=openai&logoColor=white" alt="RAG Systems">
-  <img src="https://img.shields.io/badge/Multi--Agent-Intermediate-yellow?logo=langchain&logoColor=white" alt="Multi-Agent">
+  <img src="https://img.shields.io/badge/TypeScript-Full--Stack-3178c6?logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/RAG-Systems-purple?logo=openai&logoColor=white" alt="RAG Systems">
+  <img src="https://img.shields.io/badge/Bayesian-Modeling-green?logo=r&logoColor=white" alt="Bayesian Modeling">
+  <img src="https://img.shields.io/badge/Multi--Agent-Workflows-yellow?logo=langchain&logoColor=black" alt="Multi-Agent Workflows">
 </p>
 
 ## 🎯 About Me
-I'm a passionate Computer Science sophomore with a strong focus on **Artificial Intelligence, Machine Learning, and Data Science**. My research interests lie at the intersection of **AI for Science, Uncertainty Quantification, and Multi-Agent Systems**. I'm dedicated to building robust, production-ready AI systems that solve real-world problems in **battery health management, financial analysis, and scientific computing**.
 
-## 🔥 Technical Expertise
+I'm interested in building AI systems that are not only impressive in demos, but also measurable, reproducible, and useful in real-world settings. My current work spans **AI for science**, **uncertainty quantification**, **financial document intelligence**, **multi-agent reasoning**, and **AI-powered SaaS products**.
 
-### 🧠 **AI/ML Specialization**
-- **Deep Learning**: PyTorch, TensorFlow, Transformers, CNN, ResNet, LSTM
-- **Probabilistic Programming**: PyMC, Bayesian Inference, Uncertainty Quantification
-- **NLP & RAG Systems**: LlamaIndex, LangChain, HuggingFace, Embeddings
-- **Multi-Agent Systems**: LangGraph, Agent Orchestration, Swarm Intelligence
-- **Computer Vision**: Medical Imaging, Object Detection, Segmentation
+I like projects where research ideas meet engineering discipline: clean experiments, transparent evaluation, and systems that can be shipped, inspected, and improved.
 
-### 💻 **Software Engineering**
-- **Languages**: Python (Expert), Java (Advanced), C (Intermediate), JavaScript (Intermediate)
+## 🔥 Technical Focus
+
+### 🧠 AI / Machine Learning
+- **Deep Learning**: PyTorch, TensorFlow, Transformers, CNNs, ResNet, LSTM
+- **Uncertainty & Bayesian Methods**: PyMC, Bayesian inference, HDI coverage, uncertainty quantification
+- **NLP & RAG**: LlamaIndex, LangChain, Hugging Face, embeddings, document parsing
+- **Multi-Agent Systems**: LangGraph, agent orchestration, local LLM workflows
+- **Applied AI**: Battery prognostics, financial analysis, scientific computing
+
+### 💻 Software Engineering
+- **Languages**: Python, TypeScript, Java, C, JavaScript
 - **Backend**: FastAPI, Flask, PostgreSQL, MongoDB, Redis
-- **Frontend**: React, Next.js, TypeScript, Tailwind CSS
-- **DevOps**: Docker, Kubernetes, GitHub Actions, CI/CD, Terraform
-- **Cloud**: AWS (EC2, S3, Lambda), GCP (Compute Engine), Azure (Basic)
+- **Frontend**: React, Next.js, Tailwind CSS
+- **DevOps**: Docker, GitHub Actions, CI/CD, reproducible experiment pipelines
+- **Cloud & Tooling**: AWS, GCP, Azure basics, MLflow, Weights & Biases
 
-### 📊 **Data Science & Research**
-- **Statistical Analysis**: Hypothesis Testing, Bayesian Methods, A/B Testing
-- **Data Visualization**: Matplotlib, Seaborn, Plotly, Tableau
-- **Big Data**: Spark, Hadoop, SQL, NoSQL
-- **Experimental Design**: Controlled Experiments, Causal Inference, Reproducibility
-- **Research Methods**: Academic Writing, Paper Review, Conference Presentations
+### 📊 Research & Data
+- **Evaluation**: Benchmarking, ablation studies, reproducibility, error analysis
+- **Statistics**: Hypothesis testing, Bayesian modeling, experimental design
+- **Visualization**: Matplotlib, Seaborn, Plotly
+- **Research Practice**: Literature review, paper writing, conference preparation
 
 ## 🏆 Featured Projects
 
-### 🥇 **Top Project: Battery Health Management**
-[![Battery Prognostics](https://img.shields.io/badge/🔋_Battery_Prognostics-Research_Project-blueviolet)](https://github.com/Zhi-Chao-PAN/safety-critical-battery-prognostics)
-**Hierarchical Bayesian vs. LSTM for battery RUL prediction**
+### 🆕 LaunchLens AI
+[![LaunchLens AI](https://img.shields.io/badge/LaunchLens_AI-AI_SaaS_Portfolio-0f766e)](https://github.com/Zhi-Chao-PAN/launchlens-ai)
+
+**AI-powered SaaS go-to-market workspace portfolio project**
+- **Tech Stack**: TypeScript, full-stack product engineering, AI workflow design
+- **Focus**: Product strategy, workflow automation, SaaS interface design
+- **Status**: Actively updated in June 2026
+
+### 🔋 Safety-Critical Battery Prognostics
+[![Battery Prognostics](https://img.shields.io/badge/Battery_Prognostics-Research_Project-blueviolet)](https://github.com/Zhi-Chao-PAN/safety-critical-battery-prognostics)
+
+**A reproducible battery prognostics repository with physics-aware evaluation and uncertainty reporting**
 - **Tech Stack**: PyMC, PyTorch, NASA PCoE Dataset
-- **Key Results**: 100% HDI coverage, Safety-critical uncertainty quantification
-- **Impact**: ISO 26262 compliant systems, Autonomous vehicle safety
+- **Key Result**: Safety-focused RUL prediction with uncertainty-aware evaluation
+- **Impact**: Battery health management, autonomous systems, safety-critical ML
 
-### 🥈 **Runner-up: Financial RAG System**
-[![Structure-Aware RAG](https://img.shields.io/badge/📊_Structure--Aware_RAG-Financial_AI-important)](https://github.com/Zhi-Chao-PAN/structure-aware-rag-empirical)
-**Financial document parsing with +37.5% accuracy boost**
-- **Tech Stack**: LlamaParse, RAG, DeepSeek-R1, BGE Embeddings
-- **Key Results**: 37.5% accuracy improvement, 100% tabular data recovery
-- **Impact**: Financial document analysis, SEC filing processing
+### 📊 Structure-Aware Financial RAG
+[![Structure-Aware RAG](https://img.shields.io/badge/Structure--Aware_RAG-Financial_AI-important)](https://github.com/Zhi-Chao-PAN/structure-aware-rag-empirical)
 
-### 🥉 **Innovation: Multi-Agent Financial Analysis**
-[![Financial Swarm](https://img.shields.io/badge/🤖_Financial_Swarm-Multi_Agent-success)](https://github.com/Zhi-Chao-PAN/LangGraph-Financial-Swarm)
-**Multi-agent system for complex financial reasoning**
-- **Tech Stack**: LangGraph, Multi-Agent Systems, Ollama, Local LLMs
-- **Key Results**: 88.4% accuracy, 4.2% hallucination rate
-- **Impact**: Automated financial research, Investment analysis
+**Financial document parsing with a 37.5% accuracy improvement on complex tabular reasoning**
+- **Tech Stack**: LlamaParse, RAG, DeepSeek-R1, BGE embeddings
+- **Key Result**: 50.0% → 68.8% accuracy improvement
+- **Impact**: SEC filing analysis, financial document intelligence, table-aware retrieval
+
+### 🤖 LangGraph Financial Swarm
+[![Financial Swarm](https://img.shields.io/badge/Financial_Swarm-Multi_Agent-success)](https://github.com/Zhi-Chao-PAN/LangGraph-Financial-Swarm)
+
+**Multi-agent system for financial reasoning and local LLM workflows**
+- **Tech Stack**: LangGraph, multi-agent systems, Ollama, local LLMs
+- **Key Result**: 88.4% accuracy with a 4.2% hallucination rate
+- **Impact**: Automated financial research and investment analysis workflows
+
+### 🌐 Personal Website
+[![Personal Website](https://img.shields.io/badge/Personal_Website-Digital_Garden-111827)](https://github.com/Zhi-Chao-PAN/personal-website)
+
+**Personal portfolio and digital garden built with Next.js and AI-integrated workflows**
+- **Tech Stack**: TypeScript, Next.js, modern frontend engineering
+- **Focus**: Personal knowledge systems, portfolio design, AI-assisted publishing
 
 ## 📈 GitHub Analytics
 
@@ -76,32 +98,32 @@ I'm a passionate Computer Science sophomore with a strong focus on **Artificial 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zhi-Chao-PAN&theme=radical&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%">
 </p>
 
-## 🎯 Current Goals & Roadmap
+## 🧭 2026 Roadmap
 
-### 🎓 **Academic Objectives (2026)**
-- **GPA**: Maintain >3.8/4.0 (Current: 3.85)
-- **Research**: Publish 2+ papers on AI for Science
-- **Study Abroad**: Prepare UTS Master's Application (Australia)
-- **Competitions**: Participate in Kaggle/AI competitions
+### 🎓 Academic & Research
+- Continue research in **AI for Science**, **uncertainty quantification**, and **reliable ML**
+- Prepare stronger graduate-school and research-portfolio materials
+- Turn project work into reproducible reports, benchmarks, and paper-ready artifacts
 
-### 💼 **Professional Development**
-- **Summer Internship**: AI/ML engineering at tech company
-- **Open Source**: Contribute to major AI projects (PyTorch, HuggingFace)
-- **Certifications**: AWS Machine Learning, Google Cloud AI
+### 💼 Engineering & Product
+- Build more complete AI applications with clear user workflows and measurable outcomes
+- Strengthen full-stack TypeScript / Next.js product engineering
+- Improve deployment, observability, and documentation across portfolio projects
 
-### 📚 **Learning Focus**
-- **Advanced Topics**: Bayesian Deep Learning, Causal ML
-- **Systems**: Distributed ML Systems, ML Infrastructure
-- **Applications**: Healthcare AI, Climate Science, Financial AI
+### 📚 Learning Focus
+- Bayesian deep learning and causal ML
+- Distributed ML systems and production ML infrastructure
+- Healthcare AI, climate science, battery systems, and financial AI
 
-## 📊 Project Impact Metrics
+## 📊 Project Snapshot
 
-| Metric | Battery Project | RAG Project | Swarm Project | Overall |
-|--------|----------------|-------------|---------------|---------|
-| **Accuracy** | 100% HDI | +37.5% | 88.4% | Excellent |
-| **Innovation** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | High |
-| **Complexity** | Advanced | Intermediate | Advanced | Challenging |
-| **Real-world** | Critical | Practical | Innovative | Valuable |
+| Project | Area | Main Stack | Highlight |
+|--------|------|------------|-----------|
+| [LaunchLens AI](https://github.com/Zhi-Chao-PAN/launchlens-ai) | AI SaaS | TypeScript | AI-powered go-to-market workspace |
+| [Battery Prognostics](https://github.com/Zhi-Chao-PAN/safety-critical-battery-prognostics) | AI for Science | PyMC, PyTorch | Uncertainty-aware battery RUL modeling |
+| [Structure-Aware RAG](https://github.com/Zhi-Chao-PAN/structure-aware-rag-empirical) | Financial AI | RAG, LlamaParse | +37.5% accuracy on tabular reasoning |
+| [Financial Swarm](https://github.com/Zhi-Chao-PAN/LangGraph-Financial-Swarm) | Multi-Agent AI | LangGraph, Ollama | 88.4% accuracy, 4.2% hallucination rate |
+| [Personal Website](https://github.com/Zhi-Chao-PAN/personal-website) | Portfolio | Next.js, TypeScript | AI-integrated digital garden |
 
 ## 🏅 Skills Progression
 
@@ -110,78 +132,48 @@ gantt
     title Technical Skills Development Timeline
     dateFormat  YYYY-MM
     axisFormat  %b %Y
-    
+
     section AI/ML
-    PyTorch/TensorFlow :2025-01, 6M
-    Bayesian Methods   :2025-04, 8M
-    RAG Systems        :2025-07, 6M
-    Multi-Agent        :2025-10, 4M
-    
+    PyTorch and TensorFlow      :2025-01, 8M
+    Bayesian Methods            :2025-04, 10M
+    RAG Systems                 :2025-07, 8M
+    Multi-Agent Workflows       :2025-10, 7M
+
     section Engineering
-    Python Advanced    :2025-01, 12M
-    Backend Systems    :2025-03, 10M
-    DevOps/Cloud       :2025-06, 9M
-    Production ML      :2025-09, 6M
-    
+    Python Projects             :2025-01, 12M
+    Backend Systems             :2025-03, 10M
+    TypeScript and Next.js      :2026-03, 6M
+    Production ML Tooling       :2025-09, 9M
+
     section Research
-    Paper Writing      :2025-02, 11M
-    Experimental Design:2025-05, 8M
-    Conference Prep    :2025-08, 5M
-    Academic Review    :2025-11, 4M
+    Paper Writing               :2025-02, 12M
+    Experimental Design         :2025-05, 10M
+    Benchmarking and Reporting  :2026-03, 6M
+    Portfolio Publication       :2026-04, 5M
 ```
 
-## 📬 Let's Connect!
+## 📝 Latest Updates
+
+- ✅ **2026-06**: Added [LaunchLens AI](https://github.com/Zhi-Chao-PAN/launchlens-ai), an AI-powered SaaS go-to-market workspace project
+- ✅ **2026-04**: Continued work on safety-critical battery prognostics and uncertainty-aware evaluation
+- ✅ **2026-03**: Published financial RAG and multi-agent financial analysis projects
+- 🎯 **Next**: Convert project work into stronger writeups, demos, and reproducible evaluation reports
+
+## 📬 Let's Connect
 
 <p align="center">
-  <a href="https://linkedin.com/in/zhichao-pan">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&label=Connect" alt="LinkedIn" height="30">
-  </a>
-  <a href="https://twitter.com/ZhiChao_PAN">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&label=Follow" alt="Twitter" height="30">
-  </a>
   <a href="https://github.com/Zhi-Chao-PAN">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&label=Profile" alt="GitHub" height="30">
   </a>
-  <a href="mailto:zhichao.pan@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&label=Email" alt="Email" height="30">
-  </a>
-  <a href="https://scholar.google.com/citations?user=your-id">
-    <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white&label=Scholar" alt="Google Scholar" height="30">
-  </a>
-  <a href="https://medium.com/@zhichaopan">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white&label=Blog" alt="Medium" height="30">
+  <a href="https://github.com/Zhi-Chao-PAN/personal-website">
+    <img src="https://img.shields.io/badge/Portfolio_Repo-111827?style=for-the-badge&logo=nextdotjs&logoColor=white&label=Website" alt="Portfolio Repository" height="30">
   </a>
 </p>
 
-## 📝 Latest Achievements
-
-### 🏆 **Recent Highlights**
-- ✅ **2026 Q1**: Published 3 research projects on GitHub
-- ✅ **2026 Q1**: Achieved 88.4% accuracy on financial AI system
-- ✅ **2025 Q4**: Completed advanced Bayesian statistics course
-- 🎯 **2026 Q2**: Summer internship applications
-- 🎯 **2026 Q3**: Kaggle competition participation
-- 🎯 **2026 Q4**: UTS master's application preparation
-
-### 📚 **Learning Resources**
-- **Books**: "Deep Learning" by Goodfellow, "Bayesian Data Analysis"
-- **Courses**: Stanford CS229, FastAI, DeepLearning.AI
-- **Research**: NeurIPS, ICML, ICLR papers
-- **Tools**: PyTorch Lightning, Weights & Biases, MLflow
-
-## ⭐ Support & Collaboration
-
-I'm always open to:
-- 🤝 **Collaboration** on interesting AI/ML projects
-- 📝 **Code Review** and technical discussions
-- 🎯 **Mentorship** for junior developers
-- 💡 **Idea Exchange** on emerging technologies
-
-**Ways to support:**
-- Give my projects a ⭐ on GitHub
-- Share with your network
-- Open issues with feedback
-- Contribute to ongoing projects
+I'm open to:
+- 🤝 Collaboration on AI/ML research and product projects
+- 📝 Code review, benchmark design, and technical discussion
+- 💡 Idea exchange around reliable AI systems and applied research
 
 ---
 
@@ -196,6 +188,6 @@ I'm always open to:
 </p>
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/Zhi-Chao-PAN">Zhichao Pan</a> | 
-  Last Updated: March 17, 2026
+  Made with ❤️ by <a href="https://github.com/Zhi-Chao-PAN">Zhichao Pan</a><br>
+  Last Updated: June 13, 2026
 </p>
