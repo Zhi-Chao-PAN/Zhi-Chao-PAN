@@ -14,6 +14,14 @@ I build AI systems that are measurable, reproducible, and useful beyond demos: r
 
 ## Featured Work
 
+### [LLM Evaluation Playbook](https://github.com/Zhi-Chao-PAN/llm-evaluation-playbook)
+
+Field-tested methodology for designing LLM evaluation tasks, distilled from ~6 months of industrial evaluation work (30+ batches, 23k+ valid feedback items in a peak month).
+
+- Covers three-tier rubric design, machine-checkable numeric tolerances, contamination control, multi-turn and long-horizon agent task patterns, and LLM-as-judge tiered arbitration
+- Ships with working tooling: a rubric linter, a tolerance checker, and a one-shot package validator — 17 unit tests, CI across Python 3.9–3.12
+- Turns hands-on evaluation practice into reusable specs, templates, and checklists
+
 ### [LaunchLens AI](https://github.com/Zhi-Chao-PAN/launchlens-ai)
 
 AI-powered go-to-market workspace for product research, launch planning, and structured GTM briefs.
@@ -76,6 +84,7 @@ Reproducible AI-for-science project for battery health prediction, bounded repor
 
 | Project | Direction | What it demonstrates |
 | --- | --- | --- |
+| [LLM Evaluation Playbook](https://github.com/Zhi-Chao-PAN/llm-evaluation-playbook) | Evaluation methodology | Industrial-grade rubric and tolerance design with working validation tooling |
 | [LaunchLens AI](https://github.com/Zhi-Chao-PAN/launchlens-ai) | AI SaaS | Product workflow design and full-stack AI application engineering |
 | [LaunchLens Research Studio](https://github.com/Zhi-Chao-PAN/launchlens-research-studio) | Multi-agent systems | Parallel agent workflows, synthesis, streaming UX, exports |
 | [Model Eval Studio](https://github.com/Zhi-Chao-PAN/model-eval-studio) | AI evaluation | Multi-model comparison, artifact review, structured reporting |
@@ -107,4 +116,4 @@ Open to collaboration around applied AI systems, multi-agent workflows, RAG eval
 
 ---
 
-Last updated: June 25, 2026
+Last updated: September 11, 2026
