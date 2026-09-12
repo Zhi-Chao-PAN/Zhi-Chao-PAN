@@ -1,119 +1,45 @@
 # Hi, I'm ZhiChao Pan
 
-Computer Science student at Yangzhou University Guangling College, focused on applied AI, multi-agent systems, RAG evaluation, and full-stack AI product engineering.
+[简体中文](README.zh-CN.md) · [Personal website](https://www.panzhichao.com)
 
-I build AI systems that are measurable, reproducible, and useful beyond demos: research prototypes with clear evaluation, product interfaces with real workflows, and agentic systems that can be inspected and improved.
+I'm a Computer Science undergraduate at Yangzhou University Guangling College, preparing for a master's degree in AI / Computer Science and exploring relevant job opportunities.
 
-## Current Focus
+My focus is applied AI products, evaluation, and agent workflows. In these projects, I lead product requirements, make design tradeoffs, coordinate AI-assisted implementation, and review and iterate on the results. The case studies explain the work, the evidence, and the current limits.
 
-- Applied AI systems and AI product engineering
-- Multi-agent orchestration with LangGraph and tool-based workflows
-- Retrieval-augmented generation, document intelligence, and evaluation
-- Full-stack TypeScript applications with Next.js, Prisma, and Vercel
-- Reliable ML, uncertainty-aware modeling, and reproducible experiments
-
-## Featured Work
-
-### [LLM Evaluation Playbook](https://github.com/Zhi-Chao-PAN/llm-evaluation-playbook)
-
-Field-tested methodology for designing LLM evaluation tasks, distilled from ~6 months of industrial evaluation work (30+ batches, 23k+ valid feedback items in a peak month).
-
-- Covers three-tier rubric design, machine-checkable numeric tolerances, contamination control, multi-turn and long-horizon agent task patterns, and LLM-as-judge tiered arbitration
-- Ships with working tooling: a rubric linter, a tolerance checker, and a one-shot package validator — 17 unit tests, CI across Python 3.9–3.12
-- Turns hands-on evaluation practice into reusable specs, templates, and checklists
+## Featured projects
 
 ### [LaunchLens AI](https://github.com/Zhi-Chao-PAN/launchlens-ai)
 
-AI-powered go-to-market workspace for product research, launch planning, and structured GTM briefs.
+A go-to-market workspace that connects a founder brief, an editable plan, validation evidence, and a cited AI decision brief. It brings together product workflow design, optional model providers, cloud snapshots, and privacy-aware sharing. The project includes a deterministic demo mode and documents its commercial readiness boundaries.
 
-- Built with Next.js, TypeScript, and modern full-stack product patterns
-- Focuses on AI-assisted market research, product positioning, and launch workflow design
-- Represents my AI Product Engineer direction: turning AI capability into a usable product surface
+[Case study](https://www.panzhichao.com/projects/launchlens-ai) · [Live demo](https://launchlens-ai-two.vercel.app)
 
-### [LaunchLens Research Studio](https://github.com/Zhi-Chao-PAN/launchlens-research-studio)
+### [LLM Evaluation Playbook](https://github.com/Zhi-Chao-PAN/llm-evaluation-playbook)
 
-Multi-agent market intelligence workspace for parallel research, synthesis, and exportable reports.
+Evaluation practice turned into reusable task specifications, rubric guidance, numerical tolerance checks, and package validation tools. Public examples are synthetic. The Python tools use the standard library, with CI configured for Python 3.9, 3.11, and 3.12.
 
-- Uses specialized agents for market sizing, competitor analysis, pricing, channels, pain points, and synthesis
-- Includes real-time progress streaming, structured outputs, and test coverage
-- Demonstrates agent orchestration, UX design for AI workflows, and product-grade packaging
+[Case study](https://www.panzhichao.com/projects/llm-evaluation-playbook) · [Example task package](https://github.com/Zhi-Chao-PAN/llm-evaluation-playbook/tree/main/examples/synthetic-saas-analysis)
 
-### [Model Eval Studio](https://github.com/Zhi-Chao-PAN/model-eval-studio)
+### [AI CLI Orchestrator · AIW](https://github.com/Zhi-Chao-PAN/ai-cli-orchestrator)
 
-AI-driven multi-model evaluation workspace for comparing model outputs, screenshots, and artifacts.
+A Windows PowerShell dispatcher for local AI CLIs, with explicit worker selection, capability checks, bounded runs, and structured execution evidence. Provider authentication stays with each CLI; the operator reviews the result before accepting the work.
 
-- Provides a guided evaluation workflow from task setup to structured comparison reports
-- Combines product thinking, artifact parsing, evaluation criteria, and report generation
-- Reflects my interest in practical AI evaluation and decision-support tooling
+[Case study](https://www.panzhichao.com/projects/ai-cli-orchestrator) · [Releases](https://github.com/Zhi-Chao-PAN/ai-cli-orchestrator/releases)
 
-### [Structure-Aware Financial RAG](https://github.com/Zhi-Chao-PAN/structure-aware-rag-empirical)
+## More work
 
-Empirical study on improving financial RAG accuracy for complex cross-row tabular reasoning.
+- **[ModelEval Studio](https://github.com/Zhi-Chao-PAN/model-eval-studio)** — A workspace for uploaded model artifacts and screenshots, AI-assisted comparisons, report revisions, and evidence tracking. [Case study](https://www.panzhichao.com/projects/model-eval-studio).
+- **[Structure-Aware Financial RAG](https://github.com/Zhi-Chao-PAN/structure-aware-rag-empirical)** — An exploratory comparison of document parsing approaches for financial tables, with retrieval and answer failure analysis. [Case study](https://www.panzhichao.com/projects/structure-aware-rag-empirical).
+- **[Battery Prognostics](https://github.com/Zhi-Chao-PAN/safety-critical-battery-prognostics)** — Physics-constrained prediction and robustness evaluation, with explicit boundaries between synthetic experiments and real-cell evidence. [Case study](https://www.panzhichao.com/projects/safety-critical-battery-prognostics).
 
-- Explores structure-aware parsing, retrieval, and evaluation for financial documents
-- Reports a 37.5% relative accuracy improvement in the benchmark setting
-- Connects RAG engineering with reproducible experimental analysis
+## What I'm working toward
 
-### [LangGraph Financial Swarm](https://github.com/Zhi-Chao-PAN/LangGraph-Financial-Swarm)
-
-Multi-agent financial research system built around LangGraph-style orchestration and local LLM workflows.
-
-- Focuses on agent collaboration, tool use, and structured financial reasoning
-- Useful as a learning and experimentation base for agentic analysis pipelines
-- Part of my broader direction toward full-stack agent architecture
-
-### [Safety-Critical Battery Prognostics](https://github.com/Zhi-Chao-PAN/safety-critical-battery-prognostics)
-
-Reproducible AI-for-science project for battery health prediction, bounded reporting, and uncertainty-aware evaluation.
-
-- Combines machine learning, uncertainty modeling, and safety-critical evaluation concerns
-- Emphasizes transparent methods, real-data constraints, and reproducible reporting
-- Shows my research-side interest in reliable AI systems
-
-## Technical Stack
-
-| Area | Tools and Topics |
-| --- | --- |
-| AI / ML | PyTorch, Transformers, Hugging Face, embeddings, evaluation, uncertainty quantification |
-| RAG / Agents | LangGraph, LangChain, LlamaIndex, tool orchestration, structured outputs, local LLM workflows |
-| Full Stack | TypeScript, Next.js, React, Tailwind CSS, Prisma, PostgreSQL, Vercel |
-| Research | Benchmarking, ablation studies, error analysis, reproducibility, technical writing |
-| Engineering | GitHub Actions, Docker, CI/CD, testing, API design, product-oriented documentation |
-
-## Project Map
-
-| Project | Direction | What it demonstrates |
-| --- | --- | --- |
-| [LLM Evaluation Playbook](https://github.com/Zhi-Chao-PAN/llm-evaluation-playbook) | Evaluation methodology | Industrial-grade rubric and tolerance design with working validation tooling |
-| [LaunchLens AI](https://github.com/Zhi-Chao-PAN/launchlens-ai) | AI SaaS | Product workflow design and full-stack AI application engineering |
-| [LaunchLens Research Studio](https://github.com/Zhi-Chao-PAN/launchlens-research-studio) | Multi-agent systems | Parallel agent workflows, synthesis, streaming UX, exports |
-| [Model Eval Studio](https://github.com/Zhi-Chao-PAN/model-eval-studio) | AI evaluation | Multi-model comparison, artifact review, structured reporting |
-| [Structure-Aware RAG](https://github.com/Zhi-Chao-PAN/structure-aware-rag-empirical) | Financial AI / RAG | Retrieval evaluation and document-structure-aware reasoning |
-| [LangGraph Financial Swarm](https://github.com/Zhi-Chao-PAN/LangGraph-Financial-Swarm) | Agent architecture | Financial research agents and orchestration patterns |
-| [Battery Prognostics](https://github.com/Zhi-Chao-PAN/safety-critical-battery-prognostics) | Reliable ML | Uncertainty-aware AI for safety-critical prediction |
-| [Personal Website](https://github.com/Zhi-Chao-PAN/personal-website) | Portfolio | Digital garden and personal AI engineering portfolio |
-
-## GitHub Snapshot
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Zhi-Chao-PAN&show_icons=true&theme=default&count_private=true&include_all_commits=true" alt="GitHub stats" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zhi-Chao-PAN&layout=compact&theme=default&hide=html,css,jupyter%20notebook" alt="Top languages" width="48%">
-</p>
-
-## Roadmap
-
-- Improve the documentation, demo flows, and evaluation reports for core portfolio projects
-- Convert more agent and RAG experiments into reproducible technical writeups
-- Build stronger full-stack AI products with clear workflows, persistence, deployment, and observability
-- Prepare a graduate-school portfolio around applied AI, agent systems, and reliable ML
+- AI products with clear user workflows, inspectable evidence, and maintainable release practices.
+- Evaluation methods and agent orchestration that make assumptions and acceptance criteria explicit.
+- Graduate study in AI / Computer Science, alongside opportunities in applied AI products, evaluation, and agent tools.
 
 ## Connect
 
-- GitHub: [Zhi-Chao-PAN](https://github.com/Zhi-Chao-PAN)
-- Portfolio repository: [personal-website](https://github.com/Zhi-Chao-PAN/personal-website)
+Visit [panzhichao.com](https://www.panzhichao.com) for project walkthroughs and contact details, or explore my [GitHub repositories](https://github.com/Zhi-Chao-PAN?tab=repositories).
 
-Open to collaboration around applied AI systems, multi-agent workflows, RAG evaluation, and AI product engineering.
-
----
-
-Last updated: September 11, 2026
+Updated September 12, 2026.
