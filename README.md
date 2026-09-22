@@ -6,6 +6,15 @@ I'm a Computer Science undergraduate at Yangzhou University Guangling College, p
 
 My focus is applied AI products, evaluation, and agent workflows. In these projects, I lead product requirements, make design tradeoffs, coordinate AI-assisted implementation, and review and iterate on the results. The case studies explain the work, the evidence, and the current limits.
 
+## Recent research evidence
+
+I used AI-assisted implementation and analysis to prepare two bounded studies for review. Their source, corrections, comparisons, and negative results are public; the repositories do not claim unaided implementation or a published paper.
+
+- **[Research Agent Bench · fixed r2 release](https://github.com/Zhi-Chao-PAN/research-agent-bench/releases/tag/reviewer-snapshot-2026-09-23-r2):** A six-development-call weighted-RRF task with a paper-to-task index. CI builds its audit container and runs trace and synthetic-data checks without network access. Three fresh agent trajectories selected one identical configuration and did not beat the preset six-point search; the public test analysis is exploratory.
+- **[LoRA Robustness · fixed release](https://github.com/Zhi-Chao-PAN/lora-robustness-reproduction/releases/tag/reviewer-snapshot-2026-09-23):** Corrected a broken tokenizer input path, then studied MRPC and PAWS with a 21-run aggregate record. PAWS balanced accuracy was near the constant-classifier baseline; public CI checks the published evidence without retraining.
+
+[Bilingual evidence case and limitations](https://www.panzhichao.com/projects/autoresearch-evidence-pack)
+
 ## Featured projects
 
 ### [LaunchLens AI](https://github.com/Zhi-Chao-PAN/launchlens-ai)
@@ -42,4 +51,4 @@ A Windows PowerShell dispatcher for local AI CLIs, with explicit worker selectio
 
 Visit [panzhichao.com](https://www.panzhichao.com) for project walkthroughs and contact details, or explore my [GitHub repositories](https://github.com/Zhi-Chao-PAN?tab=repositories).
 
-Updated September 12, 2026.
+Updated September 23, 2026.
