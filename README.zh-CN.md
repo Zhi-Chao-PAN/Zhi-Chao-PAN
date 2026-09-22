@@ -6,6 +6,15 @@
 
 我关注 AI 应用产品、模型评测和智能体工作流。在这些项目中，我主要负责产品需求、方案取舍、组织 AI 辅助实现，以及结果检查和迭代。项目案例会说明解决的问题、已有证据和当前边界。
 
+## 近期研究证据
+
+我用 AI 辅助实现和分析，整理了两项可审阅的限定研究。源码、纠错、对照和负结果已公开；仓库不宣称由我独立完成全部实现，也不把技术报告写成已发表论文。
+
+- **[Research Agent Bench · r2 固定快照](https://github.com/Zhi-Chao-PAN/research-agent-bench/releases/tag/reviewer-snapshot-2026-09-23-r2)**：将加权 RRF 选参做成最多六次开发反馈的任务，公开论文到任务的对照索引。CI 构建审计容器，并在断网运行阶段检查轨迹与虚构数据。三条新增代理轨迹选到同一配置，未胜过预设六点搜索；公开测试分析属于探索性结果。
+- **[LoRA 鲁棒性 · 固定快照](https://github.com/Zhi-Chao-PAN/lora-robustness-reproduction/releases/tag/reviewer-snapshot-2026-09-23)**：纠正错误分词输入后，在 MRPC 与 PAWS 上做有 21 次运行汇总记录的实验。PAWS balanced accuracy 接近常量预测基线；公开 CI 核验发布证据，不重新训练。
+
+[中英文项目证据与边界](https://www.panzhichao.com/zh/projects/autoresearch-evidence-pack)
+
 ## 重点项目
 
 ### [LaunchLens AI](https://github.com/Zhi-Chao-PAN/launchlens-ai)
@@ -42,4 +51,4 @@
 
 欢迎访问 [panzhichao.com](https://www.panzhichao.com/zh) 查看完整项目案例和联系方式，也可以浏览我的 [GitHub 仓库](https://github.com/Zhi-Chao-PAN?tab=repositories)。
 
-更新于 2026 年 9 月 12 日。
+更新于 2026 年 9 月 23 日。
