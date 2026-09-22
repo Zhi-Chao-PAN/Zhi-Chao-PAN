@@ -13,6 +13,8 @@
 - **[Research Agent Bench · r2 固定快照](https://github.com/Zhi-Chao-PAN/research-agent-bench/releases/tag/reviewer-snapshot-2026-09-23-r2)**：将加权 RRF 选参做成最多六次开发反馈的任务，公开论文到任务的对照索引。CI 构建审计容器，并在断网运行阶段检查轨迹与虚构数据。三条新增代理轨迹选到同一配置，未胜过预设六点搜索；公开测试分析属于探索性结果。
 - **[LoRA 鲁棒性 · 固定快照](https://github.com/Zhi-Chao-PAN/lora-robustness-reproduction/releases/tag/reviewer-snapshot-2026-09-23)**：纠正错误分词输入后，在 MRPC 与 PAWS 上做有 21 次运行汇总记录的实验。PAWS balanced accuracy 接近常量预测基线；公开 CI 核验发布证据，不重新训练。
 
+[一页项目证明](https://www.panzhichao.com/evidence/autoresearch-v10-project-proof-pan-zhichao.pdf) · [研究代理固定源码审阅包](https://github.com/Zhi-Chao-PAN/research-agent-bench/releases/download/reviewer-snapshot-2026-09-23-r2/research-agent-bench-reviewer-snapshot-2026-09-23-r2-reviewer-bundle.zip) · [LoRA 固定源码审阅包](https://github.com/Zhi-Chao-PAN/lora-robustness-reproduction/releases/download/reviewer-snapshot-2026-09-23/lora-robustness-reproduction-reviewer-snapshot-2026-09-23-reviewer-bundle.zip)。两个 ZIP 均含固定标签源码、逐文件哈希清单、简短审阅指南和离线核验；原始数据与预训练权重仍须从上游获取。各 Release 说明列有 ZIP 哈希和核验范围。
+
 [中英文项目证据与边界](https://www.panzhichao.com/zh/projects/autoresearch-evidence-pack)
 
 ## 重点项目
