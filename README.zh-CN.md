@@ -18,7 +18,9 @@
 
 与公开实验分开，我在 WSL 亲自对 3 查询、12 文档虚构开发夹具做了六次不同候选调用，记录事前假设，并自行写出六题方法初稿。六题初稿包含预写部分；该记录说明本人已完成的具体操作范围。
 
-[四页研究项目作品集](https://www.panzhichao.com/evidence/autoresearch-v15-project-portfolio-pan-zhichao.pdf) · [研究代理固定源码审阅包](https://github.com/Zhi-Chao-PAN/research-agent-bench/releases/download/reviewer-snapshot-2026-09-23-r2/research-agent-bench-reviewer-snapshot-2026-09-23-r2-reviewer-bundle.zip) · [LoRA 固定源码审阅包](https://github.com/Zhi-Chao-PAN/lora-robustness-reproduction/releases/download/reviewer-snapshot-2026-09-23/lora-robustness-reproduction-reviewer-snapshot-2026-09-23-reviewer-bundle.zip)。两个 ZIP 均含固定标签源码、逐文件哈希清单、简短审阅指南和离线核验；原始数据与预训练权重仍须从上游获取。各 Release 说明列有 ZIP 哈希和核验范围。
+随后结合 AI 工具完成 NFCorpus 数据重建、六轮开发反馈与冻结测试，并构建运行 Docker 审计容器；本人核对命令与选参逻辑。冻结的 `k=60`、`w=0.85` 得到公开测试 nDCG@10 `0.308123`；这是已探索公开数据上的流程验证，原 r2 代理负结论保留。[公开流程摘要](https://www.panzhichao.com/evidence/autoresearch-v16-formal-workflow-summary.json)。
+
+[四页研究项目作品集](https://www.panzhichao.com/evidence/autoresearch-v16-project-portfolio-pan-zhichao.pdf) · [研究代理固定源码审阅包](https://github.com/Zhi-Chao-PAN/research-agent-bench/releases/download/reviewer-snapshot-2026-09-23-r2/research-agent-bench-reviewer-snapshot-2026-09-23-r2-reviewer-bundle.zip) · [LoRA 固定源码审阅包](https://github.com/Zhi-Chao-PAN/lora-robustness-reproduction/releases/download/reviewer-snapshot-2026-09-23/lora-robustness-reproduction-reviewer-snapshot-2026-09-23-reviewer-bundle.zip)。两个 ZIP 均含固定标签源码、逐文件哈希清单、简短审阅指南和离线核验；原始数据与预训练权重仍须从上游获取。各 Release 说明列有 ZIP 哈希和核验范围。
 
 [中英文项目证据与边界](https://www.panzhichao.com/zh/projects/autoresearch-evidence-pack)
 
