@@ -15,7 +15,7 @@
 
 其后 AI 代理在同机新环境中，用留存且哈希吻合的 NFCorpus 归档[复跑 r2 源码](https://github.com/Zhi-Chao-PAN/research-agent-bench/blob/2f60443dc5cd00949d031542f83c2950b956a1e8/POST_RELEASE_R2_SOURCE_REPLAY_2026-09-23.md)。这支持有限范围的数值重复性，不是盲测、跨机器验证或本人无辅助实操。
 
-[一页项目证明](https://www.panzhichao.com/evidence/autoresearch-v11-project-proof-pan-zhichao.pdf) · [研究代理固定源码审阅包](https://github.com/Zhi-Chao-PAN/research-agent-bench/releases/download/reviewer-snapshot-2026-09-23-r2/research-agent-bench-reviewer-snapshot-2026-09-23-r2-reviewer-bundle.zip) · [LoRA 固定源码审阅包](https://github.com/Zhi-Chao-PAN/lora-robustness-reproduction/releases/download/reviewer-snapshot-2026-09-23/lora-robustness-reproduction-reviewer-snapshot-2026-09-23-reviewer-bundle.zip)。两个 ZIP 均含固定标签源码、逐文件哈希清单、简短审阅指南和离线核验；原始数据与预训练权重仍须从上游获取。各 Release 说明列有 ZIP 哈希和核验范围。
+[一页项目证明](https://www.panzhichao.com/evidence/autoresearch-v12-project-proof-pan-zhichao.pdf) · [研究代理固定源码审阅包](https://github.com/Zhi-Chao-PAN/research-agent-bench/releases/download/reviewer-snapshot-2026-09-23-r2/research-agent-bench-reviewer-snapshot-2026-09-23-r2-reviewer-bundle.zip) · [LoRA 固定源码审阅包](https://github.com/Zhi-Chao-PAN/lora-robustness-reproduction/releases/download/reviewer-snapshot-2026-09-23/lora-robustness-reproduction-reviewer-snapshot-2026-09-23-reviewer-bundle.zip)。两个 ZIP 均含固定标签源码、逐文件哈希清单、简短审阅指南和离线核验；原始数据与预训练权重仍须从上游获取。各 Release 说明列有 ZIP 哈希和核验范围。
 
 [中英文项目证据与边界](https://www.panzhichao.com/zh/projects/autoresearch-evidence-pack)
 
