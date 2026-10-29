@@ -6,6 +6,41 @@ I'm a Computer Science undergraduate at Yangzhou University Guangling College, p
 
 My focus is applied AI products, evaluation, and agent workflows. In these projects, I lead product requirements, make design tradeoffs, coordinate AI-assisted implementation, and review and iterate on the results. The case studies explain the work, the evidence, and the current limits.
 
+## Featured projects
+
+### [LaunchLens AI](https://github.com/Zhi-Chao-PAN/launchlens-ai)
+
+A go-to-market workspace that connects a founder brief, an editable plan, validation evidence, and a cited AI decision brief. It brings together product workflow design, optional model providers, cloud snapshots, and privacy-aware sharing. The project includes a deterministic demo mode and documents its commercial readiness boundaries.
+
+[Case study](https://www.panzhichao.com/projects/launchlens-ai) · [Live demo](https://launchlens-ai-two.vercel.app)
+
+### [LLM Evaluation Playbook](https://github.com/Zhi-Chao-PAN/llm-evaluation-playbook)
+
+Evaluation practice turned into reusable task specifications, rubric guidance, numerical tolerance checks, and package validation tools. Public examples are synthetic. The Python tools use the standard library, with CI configured for Python 3.9, 3.11, and 3.12.
+
+[Case study](https://www.panzhichao.com/projects/llm-evaluation-playbook) · [Example task package](https://github.com/Zhi-Chao-PAN/llm-evaluation-playbook/tree/main/examples/synthetic-saas-analysis)
+
+### [Agent Shared Resources](https://github.com/Zhi-Chao-PAN/agent-shared-resources)
+
+A sanitized open-source implementation for sharing selected Skills and MCP configuration across local AI clients. It makes previews, conflict detection, transaction receipts and rollback part of the workflow. File-level CI checks do not claim that every client or OAuth connection has been accepted live.
+
+[Quick start](https://github.com/Zhi-Chao-PAN/agent-shared-resources#快速开始) · [Design and recovery](https://github.com/Zhi-Chao-PAN/agent-shared-resources/blob/main/docs/design.md)
+
+## More work
+
+### [AI CLI Orchestrator · AIW](https://github.com/Zhi-Chao-PAN/ai-cli-orchestrator)
+
+A Windows PowerShell dispatcher for local AI CLIs, with explicit worker selection, capability checks, bounded runs, and structured execution evidence. Provider authentication stays with each CLI; the operator reviews the result before accepting the work.
+
+[Case study](https://www.panzhichao.com/projects/ai-cli-orchestrator) · [Releases](https://github.com/Zhi-Chao-PAN/ai-cli-orchestrator/releases)
+
+- **[ModelEval Studio](https://github.com/Zhi-Chao-PAN/model-eval-studio)** — A workspace for uploaded model artifacts and screenshots, AI-assisted comparisons, report revisions, and evidence tracking. [Case study](https://www.panzhichao.com/projects/model-eval-studio).
+- **[Structure-Aware Financial RAG](https://github.com/Zhi-Chao-PAN/structure-aware-rag-empirical)** — An exploratory comparison of document parsing approaches for financial tables, with retrieval and answer failure analysis. [Case study](https://www.panzhichao.com/projects/structure-aware-rag-empirical).
+- **[Battery Prognostics](https://github.com/Zhi-Chao-PAN/safety-critical-battery-prognostics)** — Capacity reconstruction and physics-constraint mechanism auditing, with matched postprocessing, held-out cells and multiple training seeds. [Case study](https://www.panzhichao.com/projects/safety-critical-battery-prognostics).
+
+<details>
+<summary>Research evidence and contribution details</summary>
+
 ## Recent research evidence
 
 Three research cases examine task construction, training-input validation and controlled experimental comparisons, with source, corrections, results and verification entry points. Implementation and analysis used AI-assisted collaboration; personally completed operations are described separately below.
@@ -24,31 +59,7 @@ Later, I used AI tools to complete NFCorpus data rebuilding, six development tri
 
 [Bilingual evidence case and limitations](https://www.panzhichao.com/projects/autoresearch-evidence-pack)
 
-## Featured projects
-
-### [LaunchLens AI](https://github.com/Zhi-Chao-PAN/launchlens-ai)
-
-A go-to-market workspace that connects a founder brief, an editable plan, validation evidence, and a cited AI decision brief. It brings together product workflow design, optional model providers, cloud snapshots, and privacy-aware sharing. The project includes a deterministic demo mode and documents its commercial readiness boundaries.
-
-[Case study](https://www.panzhichao.com/projects/launchlens-ai) · [Live demo](https://launchlens-ai-two.vercel.app)
-
-### [LLM Evaluation Playbook](https://github.com/Zhi-Chao-PAN/llm-evaluation-playbook)
-
-Evaluation practice turned into reusable task specifications, rubric guidance, numerical tolerance checks, and package validation tools. Public examples are synthetic. The Python tools use the standard library, with CI configured for Python 3.9, 3.11, and 3.12.
-
-[Case study](https://www.panzhichao.com/projects/llm-evaluation-playbook) · [Example task package](https://github.com/Zhi-Chao-PAN/llm-evaluation-playbook/tree/main/examples/synthetic-saas-analysis)
-
-### [AI CLI Orchestrator · AIW](https://github.com/Zhi-Chao-PAN/ai-cli-orchestrator)
-
-A Windows PowerShell dispatcher for local AI CLIs, with explicit worker selection, capability checks, bounded runs, and structured execution evidence. Provider authentication stays with each CLI; the operator reviews the result before accepting the work.
-
-[Case study](https://www.panzhichao.com/projects/ai-cli-orchestrator) · [Releases](https://github.com/Zhi-Chao-PAN/ai-cli-orchestrator/releases)
-
-## More work
-
-- **[ModelEval Studio](https://github.com/Zhi-Chao-PAN/model-eval-studio)** — A workspace for uploaded model artifacts and screenshots, AI-assisted comparisons, report revisions, and evidence tracking. [Case study](https://www.panzhichao.com/projects/model-eval-studio).
-- **[Structure-Aware Financial RAG](https://github.com/Zhi-Chao-PAN/structure-aware-rag-empirical)** — An exploratory comparison of document parsing approaches for financial tables, with retrieval and answer failure analysis. [Case study](https://www.panzhichao.com/projects/structure-aware-rag-empirical).
-- **[Battery Prognostics](https://github.com/Zhi-Chao-PAN/safety-critical-battery-prognostics)** — Capacity reconstruction and physics-constraint mechanism auditing, with matched postprocessing, held-out cells and multiple training seeds. [Case study](https://www.panzhichao.com/projects/safety-critical-battery-prognostics).
+</details>
 
 ## What I'm working toward
 
@@ -60,4 +71,4 @@ A Windows PowerShell dispatcher for local AI CLIs, with explicit worker selectio
 
 Visit [panzhichao.com](https://www.panzhichao.com) for project walkthroughs and contact details, or explore my [GitHub repositories](https://github.com/Zhi-Chao-PAN?tab=repositories).
 
-Updated September 23, 2026.
+Updated October 29, 2026.
